@@ -1,0 +1,25 @@
+name: dev-py311
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - ipykernel
+  - notebook
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - statsmodels
+  - plotly
+  - openpyxl
+  - xlrd
+  - pip
+  - pip:
+      - pandas-profiling
+      - ydata-profiling
+      - polars
+      - sweetviz
